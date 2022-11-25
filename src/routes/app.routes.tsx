@@ -66,8 +66,8 @@ export function AppRoutes() {
         }}
       />
       <Screen
-        name="exercise"
-        component={Exercise}
+        name="profile"
+        component={Profile}
         options={{
           tabBarIcon: ({ color }) => (
             <ProfileSvg fill={color} width={iconSize} height={iconSize} />
@@ -75,8 +75,8 @@ export function AppRoutes() {
         }}
       />
       <Screen
-        name="profile"
-        component={Profile}
+        name="exercise"
+        component={Exercise}
         options={{ tabBarButton: () => null }}
       />
     </Navigator>
